@@ -40,7 +40,7 @@ function QuoteForm() {
       viewport={{ once: true, margin: "-40px" }}
       variants={formVariant}
       onSubmit={handleSubmit}
-      className="bg-slate-950 border border-slate-900 p-8 space-y-6 relative overflow-hidden shadow-2xl shadow-black/50 group rounded-none"
+      className="bg-slate-950 border border-slate-900 p-8 space-y-6 relative overflow-hidden shadow-2xl shadow-black/50 group rounded-xl"
     >
       {/* Absolute Industrial Decorative Border Accent */}
       <div className="absolute top-0 left-0 w-0 h-[2px] bg-gradient-to-r from-red-600 via-orange-500 to-amber-400 transition-all duration-500 group-hover:w-full" />
@@ -65,7 +65,7 @@ function QuoteForm() {
             type="text"
             required
             placeholder="Enter full name"
-            className="w-full bg-slate-900 border border-slate-800 text-white pl-4 pr-4 py-3 rounded-none outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
+            className="w-full bg-slate-900 border border-slate-800 text-white pl-4 pr-4 py-3 rounded-xl outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
           />
         </div>
       </motion.div>
@@ -79,7 +79,7 @@ function QuoteForm() {
           type="text"
           required
           placeholder="Your trucking company name"
-          className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-none outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
+          className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-xl outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
         />
       </motion.div>
 
@@ -93,7 +93,7 @@ function QuoteForm() {
             type="tel"
             required
             placeholder="Enter phone number"
-            className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-none outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
+            className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-xl outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
           />
         </motion.div>
 
@@ -105,7 +105,7 @@ function QuoteForm() {
             type="email"
             required
             placeholder="Enter operational email address"
-            className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-none outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
+            className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-xl outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
           />
         </motion.div>
       </div>
@@ -119,7 +119,7 @@ function QuoteForm() {
           <select
             defaultValue=""
             required
-            className="w-full bg-slate-900 border border-slate-800 text-slate-300 px-4 py-3 rounded-none outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 appearance-none cursor-pointer"
+            className="w-full bg-slate-900 border border-slate-800 text-slate-300 px-4 py-3 rounded-xl outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 appearance-none cursor-pointer"
           >
             <option value="" disabled hidden>Select truck type...</option>
             <option value="dry-van">Dry Van</option>
@@ -145,7 +145,7 @@ function QuoteForm() {
             type="number"
             min="1"
             placeholder="Example: 3"
-            className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-none outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
+            className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-xl outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
           />
         </motion.div>
 
@@ -156,7 +156,7 @@ function QuoteForm() {
           <input
             type="text"
             placeholder="Enter MC Identification Number"
-            className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-none outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
+            className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-xl outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
           />
         </motion.div>
       </div>
@@ -168,8 +168,8 @@ function QuoteForm() {
         </label>
         <input
           type="text"
-          placeholder="Example: Texas, California, Midwest Regional"
-          className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-none outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
+          placeholder="Example: Lahore, Islamabad, Karachi Regional"
+          className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-xl outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 placeholder:text-slate-600"
         />
       </motion.div>
 
@@ -181,7 +181,7 @@ function QuoteForm() {
         <textarea
           rows="4"
           placeholder="Specify structural needs, route demands, or scheduling preferences..."
-          className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-none outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 resize-none placeholder:text-slate-600"
+          className="w-full bg-slate-900 border border-slate-800 text-white px-4 py-3 rounded-xl outline-none font-medium text-sm transition-all duration-300 focus:border-orange-500/50 resize-none placeholder:text-slate-600"
         />
       </motion.div>
 
@@ -191,7 +191,7 @@ function QuoteForm() {
           type="submit"
           whileHover={{ scale: 1.015 }}
           whileTap={{ scale: 0.985 }}
-          className="w-full bg-gradient-to-r from-red-600 via-orange-600 to-orange-500 text-white font-black text-xs uppercase tracking-widest py-4 rounded-none shadow-xl shadow-orange-950/10 flex items-center justify-center gap-2 group cursor-pointer border border-orange-400/10"
+          className="w-full bg-gradient-to-r from-red-600 via-orange-600 to-orange-500 text-white font-black text-xs uppercase tracking-widest py-4 rounded-xl shadow-xl shadow-orange-950/10 flex items-center justify-center gap-2 group cursor-pointer border border-orange-400/10"
         >
           Initialize Matrix Deployment
           <ArrowRight size={14} className="transform group-hover:translate-x-1.5 transition-transform duration-300" />

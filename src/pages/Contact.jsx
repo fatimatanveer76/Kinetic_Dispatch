@@ -24,7 +24,7 @@ function Contact() {
         </div>
 
 
-        <div className="max-w-3xl mx-auto mt-12">
+        <div className="max-w-full mx-auto mt-12">
 
           <ContactForm />
 
@@ -32,7 +32,7 @@ function Contact() {
 
 
       </section>
-      <Footer/>
+      
     </>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Drivercard from "../components/DriverCard"; // Imported as Drivercard
-import Footer from "../components/Footer";
+import truckBg from "../assets/truck3.jpg";
 import { 
   DollarSign, 
   MapPin, 
@@ -39,22 +39,38 @@ function Drivers() {
       <div className="absolute bottom-1/3 left-1/4 w-[400px] h-[400px] bg-orange-600/5 rounded-full blur-[120px] pointer-events-none" />
 
       {/* ================= DRIVER HERO ================= */}
-      <section className="relative pt-36 pb-24 px-6 z-10 border-b border-slate-900">
+    
+        <section className="relative min-h-screen overflow-hidden">
+  {/* Background Image */}
+  <div
+    className="absolute inset-0 bg-cover bg-center"
+    style={{ backgroundImage: `url(${truckBg})` }}
+  />
+
+  {/* Dark Overlay */}
+  <div className="absolute inset-0 bg-black/60" />
+
+  {/* Content */}
+  <div className="relative z-10 pt-36 pb-24 px-6">
+    {/* Your content here */}
+
+
+  
         <div className="max-w-5xl mx-auto text-center space-y-6">
           <motion.div
             initial={{ opacity: 0, y: -15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="inline-flex items-center gap-2 px-3 py-1 bg-slate-900 border border-slate-800 text-[10px] font-mono tracking-widest text-orange-500 rounded-none uppercase"
+            className="inline-flex items-center gap-2 px-3 py-1 bg-slate-900 border border-slate-800 text-[10px] font-mono tracking-widest text-orange-500 rounded-xl uppercase"
           >
-            <Zap size={10} className="fill-orange-500 animate-pulse" /> Logistics Carrier Network
+            <Zap size={10} className="fill-orange-500 animate-pulse rounded-2xl" /> Logistics Carrier Network
           </motion.div>
 
           <motion.h1 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-white leading-none"
+            className="text-5xl md:text-6xl lg:text-7xl font-black uppercase tracking-tighter text-white leading-none"
           >
             Grow Your Trucking Business With <br />
             <span className="bg-gradient-to-r from-red-600 via-orange-500 to-amber-500 bg-clip-text text-transparent italic font-light tracking-normal">
@@ -71,9 +87,9 @@ function Drivers() {
             We help independent truck drivers and fleet owners find high-yielding loads, 
             negotiate optimized premium market rates, and keep equipment running efficiently with zero downtime.
           </motion.p>
-        </div>
-      </section>
-
+          </div>
+         </div>
+        </section>
       {/* ================= DRIVER BENEFITS ================= */}
       <section className="bg-slate-900 py-24 px-6 border-b border-slate-900 relative z-10">
         <div className="max-w-7xl mx-auto">
@@ -198,7 +214,7 @@ function Drivers() {
           transition={{ duration: 0.6 }}
           className="rounded-none border border-slate-900 bg-gradient-to-r from-slate-950 via-slate-900/40 to-slate-950 p-8 md:p-14 flex flex-col md:flex-row items-center justify-between gap-8 relative overflow-hidden shadow-2xl shadow-black/80"
         >
-          <div className="absolute top-0 right-1/4 w-80 h-80 bg-gradient-to-br from-red-600/5 to-orange-500/5 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute top-0 right-1/4 w-80 h-80 bg-gradient-to-br from-red-600/5 to-orange-500/5 rounded-xl blur-3xl pointer-events-none" />
           
           <div className="space-y-3 max-w-2xl text-center md:text-left">
             <h2 className="text-2xl md:text-4xl font-black text-white uppercase tracking-tight leading-tight">
@@ -216,7 +232,7 @@ function Drivers() {
           >
             <Link 
               to="/partner"
-              className="whitespace-nowrap px-8 py-4.5 bg-gradient-to-r from-orange-600 via-orange-600 to-orange-500 text-white font-black text-xs uppercase tracking-widest rounded-none shadow-lg shadow-orange-600/10 flex items-center justify-center gap-2 group cursor-pointer border border-orange-400/10"
+              className="whitespace-nowrap px-8 py-4.5 bg-gradient-to-r from-orange-600 via-orange-600 to-orange-500 text-white font-black text-xs uppercase tracking-widest rounded-xl shadow-lg shadow-orange-600/10 flex items-center justify-center gap-2 group cursor-pointer border border-orange-400/10"
             >
               Become A Partner
               <ArrowRight size={14} className="transform group-hover:translate-x-1.5 transition-transform duration-300" />
@@ -224,7 +240,6 @@ function Drivers() {
           </motion.div>
         </motion.div>
       </section>
-     <Footer/>
     </div>
      
   );

@@ -4,7 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 function Drivercard({ icon: Icon, title, description, index = 0 }) {
   return (
     <div
-      className="group relative bg-gradient-to-b from-slate-950 to-slate-900 border border-slate-900 p-8 rounded-none flex flex-col h-full justify-between overflow-hidden shadow-2xl shadow-black/60 cursor-pointer transform hover:-translate-y-2 transition-all duration-300 ease-out"
+      className="group relative bg-gradient-to-b from-slate-950 to-slate-900 border border-slate-900 p-8 rounded-xl flex flex-col h-full justify-between overflow-hidden shadow-2xl shadow-black/60 cursor-pointer transform hover:-translate-y-2 transition-all duration-300 ease-out"
     >
       {/* Laser Top Edge Highlight - Switches from subtle slate to pure brand Red on hover */}
       <div className="absolute top-0 left-0 w-full h-[1px] bg-slate-800 group-hover:bg-gradient-to-r group-hover:from-orange-600 group-hover:to-orange-500 transition-colors duration-300" />
@@ -16,7 +16,7 @@ function Drivercard({ icon: Icon, title, description, index = 0 }) {
         {/* Technical Top Tracker Label */}
         <div className="flex justify-between items-center mb-6 font-mono text-[9px] tracking-widest text-slate-600">
           <span>SYS.MOD_0{index + 1}</span>
-          <span className="w-1.5 h-1.5 bg-orange-500 rounded-none animate-pulse opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+          <span className="w-1.5 h-1.5 bg-orange-500 rounded-xl animate-pulse opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         </div>
 
         {/* Industrial Boxed Icon Setup - Transitions to brand red on hover */}

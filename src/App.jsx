@@ -32,7 +32,7 @@ function App() {
         <Route path="/quote" element={<Quote />} />
 
       </Routes>
-
+       <Footer/>
     </>
   );
 }

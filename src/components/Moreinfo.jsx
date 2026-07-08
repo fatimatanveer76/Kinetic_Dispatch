@@ -90,22 +90,22 @@ function Moreinfo() {
                 </p>
               </div>
 
-              {/* Action Button with Linear Shine Sweep Effect */}
+              {/* Action Button with Linear Shine Sweep Effect
               <div className="pt-2">
                 <motion.button
                   whileHover={{ scale: 1.03, y: -2 }}
                   whileTap={{ scale: 0.98 }}
                   className="relative overflow-hidden bg-slate-950 text-white font-bold uppercase tracking-wider text-xs px-8 py-4 rounded-xl shadow-xl shadow-black/30 group cursor-pointer flex items-center gap-2 transition-colors duration-300 hover:bg-slate-900 border border-slate-800"
-                >
+                > */}
                   {/* Subtle sweep line animation on hover */}
-                  <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+                  {/* <span className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent" />
                   
                   <span className="relative flex items-center gap-2">
                     Become A Carrier
                     <ArrowUpRight size={14} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-200" />
                   </span>
                 </motion.button>
-              </div>
+              </div> */}
             </motion.div>
 
             {/* Right Column: Premium Benefit Bento-Rows */}

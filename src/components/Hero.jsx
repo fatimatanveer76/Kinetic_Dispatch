@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import truckBg from "../assets/truck.jpg";
-
+import { Link } from "react-router-dom";
+const MotionLink = motion(Link);
 function Hero() {
   return (
     <motion.div
@@ -56,21 +57,24 @@ function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="mt-10 flex flex-col sm:flex-row justify-center items-center gap-4"
         >
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="w-full sm:w-auto bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-500 hover:to-orange-400 text-white px-8 py-4 rounded-xl font-bold tracking-wide shadow-lg shadow-red-900/40 transition-all duration-300 hover:scale-[1.03] active:scale-[0.98]"
-          >
-            Get Started Free
-          </motion.button>
 
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="w-full sm:w-auto border border-slate-700 bg-slate-900/40 backdrop-blur-sm text-slate-200 hover:text-white px-8 py-4 rounded-xl font-semibold tracking-wide hover:bg-slate-800/80 hover:border-slate-500 transition-all duration-300"
-          >
-            Learn More
-          </motion.button>
+          <MotionLink
+  to="/quote"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  className="w-full sm:w-auto bg-gradient-to-r from-red-600 to-orange-500 hover:from-red-500 hover:to-orange-400 text-white px-8 py-4 rounded-xl font-bold tracking-wide shadow-lg shadow-red-900/40 transition-all duration-300"
+>
+  Get Started Free
+</MotionLink>
+
+<MotionLink
+  to="/services"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  className="w-full sm:w-auto border border-slate-700 bg-slate-900/40 backdrop-blur-sm text-slate-200 hover:text-white px-8 py-4 rounded-xl font-semibold tracking-wide hover:bg-slate-800/80 hover:border-slate-500 transition-all duration-300"
+>
+  Learn More
+</MotionLink>
         </motion.div>
 
       </motion.div>

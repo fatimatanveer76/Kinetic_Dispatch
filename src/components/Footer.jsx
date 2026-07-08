@@ -82,7 +82,7 @@ function Footer() {
             <div className="space-y-3 text-sm">
               <div className="flex gap-3 items-center group">
                 <FaPhone className="text-orange-500 transition-colors group-hover:text-red-500" />
-                <span className="text-slate-300 font-medium">+1 (555) 123-4567</span>
+                <span className="text-slate-300 font-medium">+92 (555) 123-4567</span>
               </div>
 
               <div className="flex gap-3 items-center group">
@@ -92,7 +92,7 @@ function Footer() {
 
               <div className="flex gap-3 items-center group">
                 <FaMapMarkerAlt className="text-orange-500 transition-colors group-hover:text-red-500" />
-                <span className="text-slate-300 font-medium">Houston, Texas</span>
+                <span className="text-slate-300 font-medium">Lahore, Pakistan</span>
               </div>
 
               {/* Enhanced Socials Blocks */}

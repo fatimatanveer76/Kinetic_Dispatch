@@ -71,7 +71,7 @@ function Home() {
 
 
       <ContactForm />
-      <Footer/>
+   
     </>
   );
 }

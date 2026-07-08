@@ -12,7 +12,7 @@ function Services() {
           <Moreinfo/>
         </div>
       </section>
-      <Footer/>
+
     </>
   );
 }

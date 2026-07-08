@@ -149,7 +149,7 @@ function ContactForm() {
                       <User className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" size={16} />
                       <input
                         type="text"
-                        placeholder="John Smith"
+                        placeholder="Fatima Tanveer"
                         className="w-full bg-slate-950 border border-slate-800 rounded-xl pl-11 pr-4 py-3 text-sm text-white placeholder-slate-600 outline-none transition-all duration-300 focus:border-orange-500 focus:ring-4 focus:ring-orange-500/10 hover:border-slate-700"
                       />
                     </div>
@@ -164,7 +164,7 @@ function ContactForm() {
                       <Mail className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" size={16} />
                       <input
                         type="email"
-                        placeholder="john@kinetic.com"
+                        placeholder="fatima@kinetic.com"
                         className="w-full bg-slate-950 border border-slate-800 rounded-xl pl-11 pr-4 py-3 text-sm text-white placeholder-slate-600 outline-none transition-all duration-300 focus:border-orange-500 focus:ring-4 focus:ring-orange-500/10 hover:border-slate-700"
                       />
                     </div>
@@ -217,7 +217,7 @@ function ContactForm() {
 
                 {/* Trust Accent Text */}
                 <p className="text-center text-xs text-slate-500 mt-4">
-                  ⚡ Average response time: <span className="text-orange-500 font-medium">Under 30 minutes</span>
+                  Average response time: <span className="text-orange-500 font-medium">Under 30 minutes</span>
                 </p>
 
               </form>
