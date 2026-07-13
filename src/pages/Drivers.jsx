@@ -115,7 +115,7 @@ function Drivers() {
             </div>
           </motion.div>
 
-          {/* Cards Dynamic Grid - Linked to your imported custom Drivercard component */}
+          {/* Cards Dynamic Grid - Linked to your imported custom DriverCard component */}
           <motion.div 
             variants={staggeredContainer}
             initial="hidden"
