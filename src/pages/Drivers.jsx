@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import Drivercard from "../components/DriverCard"; // Imported as Drivercard
+import DriverCard from "../components/DriverCard"; // Imported as Drivercard
 import truckBg from "../assets/truck3.jpg";
 import { 
   DollarSign, 
