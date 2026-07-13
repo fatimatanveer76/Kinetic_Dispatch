@@ -1,7 +1,7 @@
 import React from "react";
 import { ArrowUpRight } from "lucide-react";
 
-function Drivercard({ icon: Icon, title, description, index = 0 }) {
+function DriverCard({ icon: Icon, title, description, index = 0 }) {
   return (
     <div
       className="group relative bg-gradient-to-b from-slate-950 to-slate-900 border border-slate-900 p-8 rounded-xl flex flex-col h-full justify-between overflow-hidden shadow-2xl shadow-black/60 cursor-pointer transform hover:-translate-y-2 transition-all duration-300 ease-out"
@@ -46,4 +46,4 @@ function Drivercard({ icon: Icon, title, description, index = 0 }) {
   );
 }
 
-export default Drivercard;
+export default DriverCard;

@@ -123,10 +123,10 @@ function Drivers() {
             viewport={{ once: true, margin: "-40px" }}
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
           >
-            <Drivercard index={0} icon={DollarSign} title="Higher Earnings" description="We negotiate high-percentage carrier profit rates and target optimized high-yield contract lines." />
-            <Drivercard index={1} icon={MapPin} title="Consistent Loads" description="Access premium, verified loads mapped out automatically around your favored return routes." />
-            <Drivercard index={2} icon={Clock} title="Save Your Time" description="Focus entirely on managing the road map while our back-office matrix handles brokers and paperwork." />
-            <Drivercard index={3} icon={Headset} title="24/7 Support" description="Receive direct engineering and active agent dispatch coordination support assets at any point." />
+            <DriverCard index={0} icon={DollarSign} title="Higher Earnings" description="We negotiate high-percentage carrier profit rates and target optimized high-yield contract lines." />
+            <DriverCard index={1} icon={MapPin} title="Consistent Loads" description="Access premium, verified loads mapped out automatically around your favored return routes." />
+            <DriverCard index={2} icon={Clock} title="Save Your Time" description="Focus entirely on managing the road map while our back-office matrix handles brokers and paperwork." />
+            <DriverCard index={3} icon={Headset} title="24/7 Support" description="Receive direct engineering and active agent dispatch coordination support assets at any point." />
           </motion.div>
         </div>
       </section>
