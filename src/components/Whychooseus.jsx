@@ -62,7 +62,7 @@ function WhyChooseUs() {
             whileHover={{ y: -5 }}
             className="group relative bg-slate-950 border border-slate-900 p-8 rounded-none transition-all duration-300 hover:border-orange-500 flex flex-col justify-between h-full"
           >
-            <div className="absolute top-0 left-0 w-0 h-[2px] bg-gradient-to-r from-red-600 to-orange-500 transition-all duration-300 group-hover:w-full"></div>
+            <div className="absolute top-0 left-0 w-0 h-0.5 bg-linear-to-r from-red-600 to-orange-500 transition-all duration-300 group-hover:w-full"></div>
             <div>
               <div className="text-slate-500 group-hover:text-orange-500 transition-colors duration-300 mb-6">
                 <Users size={36} strokeWidth={1.5} />
@@ -86,7 +86,7 @@ function WhyChooseUs() {
             whileHover={{ y: -5 }}
             className="group relative bg-slate-950 border border-slate-900 p-8 rounded-none transition-all duration-300 hover:border-orange-500 flex flex-col justify-between h-full"
           >
-            <div className="absolute top-0 left-0 w-0 h-[2px] bg-gradient-to-r from-red-600 to-orange-500 transition-all duration-300 group-hover:w-full"></div>
+            <div className="absolute top-0 left-0 w-0 h-0.5 bg-linear-to-r from-red-600 to-orange-500 transition-all duration-300 group-hover:w-full"></div>
             <div>
               <div className="text-slate-500 group-hover:text-orange-500 transition-colors duration-300 mb-6">
                 <Headset size={36} strokeWidth={1.5} />
@@ -110,7 +110,7 @@ function WhyChooseUs() {
             whileHover={{ y: -5 }}
             className="group relative bg-slate-950 border border-slate-900 p-8 rounded-none transition-all duration-300 hover:border-orange-500 flex flex-col justify-between h-full"
           >
-            <div className="absolute top-0 left-0 w-0 h-[2px] bg-gradient-to-r from-red-600 to-orange-500 transition-all duration-300 group-hover:w-full"></div>
+            <div className="absolute top-0 left-0 w-0 h-0.5 bg-linear-to-r from-red-600 to-orange-500 transition-all duration-300 group-hover:w-full"></div>
             <div>
               <div className="text-slate-500 group-hover:text-orange-500 transition-colors duration-300 mb-6">
                 <DollarSign size={36} strokeWidth={1.5} />
@@ -134,7 +134,7 @@ function WhyChooseUs() {
             whileHover={{ y: -5 }}
             className="group relative bg-slate-950 border border-slate-900 p-8 rounded-none transition-all duration-300 hover:border-orange-500 flex flex-col justify-between h-full"
           >
-            <div className="absolute top-0 left-0 w-0 h-[2px] bg-gradient-to-r from-red-600 to-orange-500 transition-all duration-300 group-hover:w-full"></div>
+            <div className="absolute top-0 left-0 w-0 h-0.5 bg-linear-to-r from-red-600 to-orange-500 transition-all duration-300 group-hover:w-full"></div>
             <div>
               <div className="text-slate-500 group-hover:text-orange-500 transition-colors duration-300 mb-6">
                 <MapPinned size={36} strokeWidth={1.5} />
